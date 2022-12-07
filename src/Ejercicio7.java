@@ -10,7 +10,7 @@
 public class Ejercicio7 {
     
     public static void main(String[] args) {
-    int contador;
+    
     int[] numeros=new int [50];
     for (int i = 0; i < numeros.length; i++) { //CON ESTE BUCLE NOS EVITAMOS TENER QUE ESCRIBIRLOS MANUALMENTE 
             numeros[i]=(int) (Math.random()*50);
