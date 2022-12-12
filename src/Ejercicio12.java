@@ -25,7 +25,7 @@ public class Ejercicio12 {
             
         }
         System.out.println("Imprimimos los valores de Vector 2 pero a la inversa");
-        for (int i = vector2.length-1; i >= 0; i--) {//COMO 9 ES MAYOR QUE CERO EL BUCLE SE VA A IR REPETIENDO DISMINUYENDO EN 1 HASTA QUE i SEA = 0
+        for (int i = vector2.length-1; i >= 0; i--) {//COMO 9 ES MAYOR QUE CERO EL BUCLE SE VA A IR REPETIENDO DISMINUYENDO EN 1 HASTA QUE i SEA = 0 Y TENEMOS QUE PONER vector2.length -1 PORQUE sino cogeria la posicion 10 y va desde 0 hasta 9 no de 0 hasta 10
             System.out.println(vector2[i]);
             
         }
