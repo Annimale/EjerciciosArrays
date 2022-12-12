@@ -21,7 +21,7 @@ public class Ejercicio14 {
          
          System.out.println("Visualizamos contenido de Vector P con los valores pares de contenido V");
          for (int i = 0; i < vectorP.length; i++) {
-                 vectorP[i]=vectorV[i];//PRIMERO ASIGNAMOS LOS VALROES Y LUEGO PONEMOS LA CONDICIÓN
+                 vectorP[i]=vectorV[i];//PRIMERO ASIGNAMOS LOS VALORES Y LUEGO PONEMOS LA CONDICIÓN
                  if (vectorV[i]%2==0) {
                      System.out.println(vectorP[i]);
                  }else{

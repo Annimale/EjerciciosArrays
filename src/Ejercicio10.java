@@ -12,7 +12,7 @@ public class Ejercicio10 {
         
         int [] repetidos=new int[20];
         int[]numeros={1,2,3,2,4,12,6,7,2,9,10,2,11,12,13,14,20,18,19,20};
-        int x;
+        
         for (int i = 0; i < numeros.length; i++) {
             int pos=0;
             for (int j= i+1; j < numeros.length; j++) {
